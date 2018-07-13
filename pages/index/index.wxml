@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <canvas bindtouchend="onTap" style="width:{{cvs.width}}px;height:{{cvs.height}}px;" canvas-id="canvas"></canvas>
+  </view>
+</view>
